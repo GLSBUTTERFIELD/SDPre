@@ -7,7 +7,7 @@ public class Objective3Lab2 {
 		sq_side1 = side1 * side1;
 		sq_side2 = side2 * side2;
 		hypotenuse = Math.sqrt(sq_side1 + sq_side2);
-		
-System.out.println(hypotenuse); 
+
+System.out.println("The hypotenuse of a triangle with sides " + side1 + " and " + side2 + " is " + hypotenuse);
 }
 	}
