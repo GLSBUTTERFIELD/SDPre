@@ -19,7 +19,6 @@ System.out.println("Please enter the third whole number you would like to add.")
 
 int intSum = num1 + num2 + num3; //adding whole numbers together
 
-
 System.out.println("Please enter the first decimal number you would like to add.");
   dub1 = keyboard.nextDouble(); //gather first decimal
 
@@ -29,10 +28,12 @@ System.out.println("Please enter the second decimal number you would like to add
 System.out.println("Please enter the third decimal number you would like to add.");
   dub3 = keyboard.nextDouble(); //gather third decimal
 
-double decimalSum = dub1 + dub2 + dub3;
+double decimalSum = dub1 + dub2 + dub3; //adding decimals together
 
+//output to user
 System.out.println("The sum of " + num1 + " + " + num2 + " + " + num3 + " = " + intSum);
 System.out.println("The sum of " + dub1 + " + " + dub2 + " + " + dub3 + " = " + decimalSum);
 
+keyboard.close();
   }
 }
