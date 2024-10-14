@@ -97,6 +97,6 @@ public static double findAverage(double x, double y) {
 
 public static double findCalcTax(double x, double y) {
 		double calcTax = (x + y);
-		return calcTax * 0.831;
+		return calcTax * 0.0831;
 }
 }
